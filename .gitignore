@@ -1,0 +1,44 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Environment and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.env
+.env.*
+
+# Game assets and proprietary binaries: do not distribute
+*.dll
+*.exe
+*.rof
+*.zbd
+*.icd
+*.dat
+*.bin
+
+# Local patch backups and investigation artifacts
+*.bak
+*.backup
+*.before-*
+*.orig
+*.dmp
+*.core
+core
+core.*
+*.log
+*.trace
+*.gdb
+*.out
+*.gz
+*.tar
+*.zip
+crimson-parser-debug/
